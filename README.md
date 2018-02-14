@@ -58,7 +58,7 @@ https://dev.maxmind.com/geoip/legacy/geolite/
 * was(tomcat, jboss)에 적용 시 참고 사항
 
 <pre>
-파일을 해당 위치에 업로드하세요. (was 재시작 )
+파일을 해당 위치에 업로드하세요. (was 재시작 필요)
 
 - resources/GeoLiteCity.dat -> WEB-INF/classes/GeoLiteCity.dat
 - resources/timezones.csv -> WEB-INF/classes/timezones.csv

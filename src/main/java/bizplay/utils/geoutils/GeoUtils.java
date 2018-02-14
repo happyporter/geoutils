@@ -22,10 +22,10 @@ public class GeoUtils {
 	
 	public static File datFile;
 	final public static TimeZone DEFAULT_TIMEZONE = TimeZone.getDefault();	//getTimeZone("KST");
-	final private static String PATH_TO_DAT = "D:/downloads/GeoLiteCity.dat/GeoLiteCity.dat";
+	final private static String PATH_TO_DAT = "/GeoLiteCity.dat";
 	
 	static {
-		datFile = new File(PATH_TO_DAT);
+		datFile = new File(GeoUtils.class.getResource(PATH_TO_DAT).getFile());
 	}
 	
 	public static TimeZone getTimeZoneByIpAddress(String ipAddress) {

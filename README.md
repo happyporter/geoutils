@@ -63,3 +63,9 @@ https://dev.maxmind.com/geoip/legacy/geolite/
 - resources/GeoLiteCity.dat -> WEB-INF/classes/GeoLiteCity.dat
 - resources/timezones.csv -> WEB-INF/classes/timezones.csv
 </pre>
+
+* 기타 참고 사항
+
+<pre>
+jdk 1.7 기반입니다.
+</pre>
